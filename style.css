@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.logo {
+  background-image: url(coffee.webp);
+}
+
+.hero {
+  background-image: url(hero.jpg);
+}
+
+.about {
+  background-image: url(about.webp);
+}
+
+.pic1 {
+  background-image: url(coffee1.jpg);
+}
+
+.pic2 {
+  background-image: url(coffee2.jpg);
+}
+
+.pic3 {
+  background-image: url(coffee3.jfif);
+}
+
+.pic4 {
+  background-image: url(coffee4.jfif);
+}
+
+.pic5 {
+  background-image: url(coffee5.jfif);
+}
+
+.pic6 {
+  background-image: url(coffee6.jfif);
+}
+
+.product-pic {
+  background-image: url(coffee-pack.webp);
+}
+
+.customer1 {
+  background-image: url(customer1.jfif);
+}
+
+.customer2 {
+  background-image: url(customer2.webp);
+}
+
+.customer3 {
+  background-image: url(customer3.jfif);
+}
+.stars {
+  background-image: url(Star_rating_4.5_of_5.png);
+}
+
+@media (min-width: 640px) and (max-width: 766px) {
+  #grd {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
+
+@media (max-width: 350px) {
+  .input {
+    width: 250px;
+  }
+}
